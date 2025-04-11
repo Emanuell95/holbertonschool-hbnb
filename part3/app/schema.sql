@@ -65,15 +65,14 @@ VALUES (
     TRUE
 );
 
--- Insertar Amenities Predefinidos
+--Amenities
 INSERT INTO amenities (id, name) VALUES
     (UUID(), 'Wi-Fi'),
-    (UUID(), 'Piscina'),
-    (UUID(), 'Gimnasio'),
-    (UUID(), 'Aire Acondicionado'),
-    (UUID(), 'Estacionamiento'),
-    (UUID(), 'Televisión'),
-    (UUID(), 'Lavadora'),
-    (UUID(), 'Cocina Equipada'),
-    (UUID(), 'Mascotas Permitidas'),
-    (UUID(), 'Desayuno Incluido');
+    (UUID(), 'Pool'),
+    (UUID(), 'Gym'),
+    (UUID(), 'Air Conditioner'),
+    (UUID(), 'Parking'),
+    (UUID(), 'TV'),
+    (UUID(), 'Kitchen available'),
+    (UUID(), 'Pets Allowed'),
+    (UUID(), 'Breakfast Included');
